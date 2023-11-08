@@ -8,7 +8,7 @@ import Account from "./pages/Account.jsx";
 import Login from "./pages/Login.jsx";
 import PageNotFound from "./pages/PageNotFound.jsx";
 import GlobalStyles from "./styles/GlobalStyles.js";
-import AppLayout from "./ui/AppLayout.jsx";
+import AppLayout from "./ui/Layout/AppLayout.jsx";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { Toaster } from "react-hot-toast";

@@ -1,9 +1,9 @@
-import Heading from "../ui/Heading";
-import Row from "../ui/Row";
+import Heading from "../ui/Layout/Heading";
+import Row from "../ui/Layout/Row";
 import { useEffect, useState } from "react";
 import { getCabins } from "../services/apiCabins.js";
 import CabinTable from "../features/cabins/CabinTable.jsx";
-import Button from "../ui/Button.jsx";
+import Button from "../ui/Button/Button.jsx";
 import CreateCabinForm from "../features/cabins/CreateCabinForm.jsx";
 
 function Cabins() {
