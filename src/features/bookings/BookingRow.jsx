@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { format, isToday } from "date-fns";
 
 import Tag from "../../ui/Tag";
-import Table from "../../ui/Table";
+import Table from "../../ui/Table/Table";
 
 import { formatCurrency, formatDistanceFromNow } from "../../utils/helpers";
 
