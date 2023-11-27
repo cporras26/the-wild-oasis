@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import Heading from "../../ui/layout/Heading";
+import Heading from "../../ui/Layout/Heading";
 import Row from "../../ui/Layout/Row";
 import { useTodayActivity } from "./hooks/useTodayActivity.js";
 import Spinner from "../../ui/Spinner/Spinner.jsx";
